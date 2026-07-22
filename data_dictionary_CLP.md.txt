@@ -1,0 +1,30 @@
+# Data Dictionary for Customer lookup project
+
+## Customers
+
+| Column | Data Type | Description |
+|---------|-----------|-------------|
+| Customer ID | Text | Unique customer identifier |
+| Customer Name | Text | Customer's full name |
+| State | Text | Customer's state |
+
+---
+
+## Risk Scores
+
+| Column | Data Type | Description |
+|---------|-----------|-------------|
+| Customer ID | Text | Unique customer identifier |
+| Risk Score | Text | Customer risk level (Low, Medium, High) |
+| Risk Flag | Text | Customer risk flag (normal, review) |
+
+
+---
+
+## Risk Levels
+
+| Risk Score | Meaning |
+|------------|---------|
+| Low | Normal monitoring |
+| Medium | Increased monitoring |
+| High | Requires additional review |
